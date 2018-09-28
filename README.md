@@ -9,8 +9,8 @@
 │   ├── fsmonitor-watchman.sample
 │   ├── post-update.sample
 │   ├── pre-applypatch.sample
-│   ├── pre-commit.sample
 │   ├── pre-push.sample
+│   ├── pre-commit.sample
 │   ├── pre-rebase.sample
 │   ├── pre-receive.sample
 │   ├── prepare-commit-msg.sample
