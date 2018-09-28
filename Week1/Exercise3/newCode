@@ -1,0 +1,18 @@
+    #include <iostream>
+
+    namespace {                 // anonymous name space
+
+    char const hello[] =        // define the Raw String Literal
+    R"(
+    ***********
+    hello world
+    ***********
+    )";
+
+    }   // namespace ends
+
+    int main()
+    {
+        std::cout << hello;     // display the Raw String Literal
+    }
+        

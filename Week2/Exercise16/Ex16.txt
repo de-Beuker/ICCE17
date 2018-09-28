@@ -1,0 +1,13 @@
+Steffens-MacBook-Air:Exercise16 SteffenBeu$ ./Ex16 b < Ex16.cc ; wc -c < Ex16.cc
+830 bytes
+     830
+Steffens-MacBook-Air:Exercise16 SteffenBeu$ ./Ex16 w < Ex16.cc ; wc -w < Ex16.cc
+122 words
+     122
+Steffens-MacBook-Air:Exercise16 SteffenBeu$ ./Ex16 l < Ex16.cc ; wc -l < Ex16.cc
+53 lines
+      53
+Steffens-MacBook-Air:Exercise16 SteffenBeu$ echo -n 'hello world' | wc -l
+       0
+Steffens-MacBook-Air:Exercise16 SteffenBeu$ echo -n 'hello world' | ./Ex16 l
+0 lines

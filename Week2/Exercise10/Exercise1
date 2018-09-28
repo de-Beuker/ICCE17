@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int value;
+	cout << "Please enter a numeric positive integral value
+    cin >> value;
+
+	cout << ( value ) << '\n';
+
+	
+}

@@ -1,0 +1,23 @@
+
+# 'make'        build executable: 'cpu'
+# 'make clean'  removes all .o and executables
+#
+CXX = g++-7.1
+CXXFLAGS = -Wall -Werror -std=c++17 
+SRCS = main.cc cpu1.cc cpu2.cc cpu_error.cc cpu_start.cc memory1.cc memory_load.cc memory_store.cc tokenizer1.cc tokenizer_opcode.cc tokenizer_reset.cc tokenizer_token.cc
+OBJS = $(SRCS:.cc=.o)
+MAIN = cpu
+
+
+all: $(MAIN)
+	@echo  Simple compiler named cpu has been compiled
+
+%.o: %.cc 
+	$(CXX) $(CXXFLAGS) -c $<  -o $@
+
+
+$(MAIN): $(OBJS) 
+	$(CXX) $(CXXFLAGS) -o $(MAIN) $(OBJS) 
+
+clean:
+	$(RM) *.o *~ $(MAIN)

@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+	
+	string(line);
+	size_t count;
+	string(command) = ((argc > 1) ? argv[1] : "");
+	if (command == "ok")
+	{
+		while(getline(cin,line))
+		{
+			count++;
+		}
+	} 
+	else 
+	{
+		while(!cin.eof())
+		{
+			count++;
+			getline(cin,line);
+		}
+	}	
+	cout << count << endl;
+}

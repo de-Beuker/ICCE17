@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std
+//1 2 12 3 13 23 123 4 14 24 34 124 134 234 1234
+//1 10 11 100 101 110 111 1000 1001 1010 1011 1100 1110 1111
+int main (int argc, char **argv){
+	int i = 0;
+	cout << i++ << i << "\n";
+
+
+}

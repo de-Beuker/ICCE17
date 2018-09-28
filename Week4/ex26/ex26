@@ -1,0 +1,9 @@
+class Coordinate
+{
+	int d_xcoord;
+	int d_ycoord;
+
+	public:
+		Coordinate()
+		size_t distance() const;
+};
