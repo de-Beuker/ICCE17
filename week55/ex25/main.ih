@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+#include <cstdlib>
+
+using namespace std;
+
+struct entrant
+{
+    bool eyeColor;
+    size_t entryNr;
+};
+
+void addEntrant(size_t entrantNr, entrant queue[]);
+size_t boardPosition(entrant queue[], size_t subject);
+bool checkArguments(int argc, char **argv);
+void displayQueue(size_t nSubject, entrant queue[]);
+
+
